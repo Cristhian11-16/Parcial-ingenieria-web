@@ -79,3 +79,10 @@ a{
     text-decoration: none;
     float: left;
 }
+.fondo-principal img{
+    width: 100%;
+    height: 300px;
+}
+.titulo center h1{
+    color: #000000;
+}
