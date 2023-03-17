@@ -23,16 +23,19 @@ body{
 
 .header .logo{
     cursor: pointer;
+    float: left;
 }
 
 .header .logo img{
     height: 70px;
     width: auto;
     transition: all 0.3s;
+    float: left;
 }
 
 .header .logo img:hover{
     transform: scale(1);
+    float: left;
 }
 
 .header .nav-links{
@@ -86,3 +89,58 @@ a{
 .titulo center h1{
     color: #000000;
 }
+
+h3 {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.container1{
+    display: inline-block;
+    width: 100px;
+    height: 0px;
+    padding: 0px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.bi{
+    margin-left:100px;
+    margin-top: 20px;
+}
+
+.botones_ultimo{
+    margin-top: 20px;
+    margin-left: 380px;
+
+}
+.btn1{
+    margin-right: 80px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.btn1:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(105, 5, 5);
+}
+.btn2{
+    background-color: rgb(255, 255, 255);
+    padding: 7px 50px;
+    color: black;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.btn2:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(13, 134, 143);
+}
+.card-text{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+
